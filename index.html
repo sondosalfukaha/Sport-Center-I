@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="Css/style.css">
+    <!--Font Family-->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!--To render the elements-->
+    <link rel="stylesheet" href="Css/normalize.css">
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Sport Center</title>
+</head>
+<body>
+    
+    <div class="preloader" id="preloader"></div>
+    <!--TOP BUTTON-->
+    <span class="moveToTheTop">TOP</span>
+    <!--Start Header-->
+    <Header>
+        <div class="container">
+            <div class="head">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h1 class="ml3">Sport Center</h1>   
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            </div>
+            <div class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span> 
+                </span>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Product">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </Header>
+    <!--End Header-->
+    <div class="container">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+<h1 style="font-weight: normal;">THE Best Sport Center Ever
+  <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "EVER.", "AT ALL.", "WORLD"]'></span>
+</h1>
+    </div>
+
+    <!--Start Image Slide-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Images/1.jpg" style="width:100%">
+          <div class="text">Internal Hall Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Images/2.jpg" style="width:100%">
+          <div class="text">Devices Hall</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Images/3.jpeg" style="width:100%">
+          <div class="text">Fitness Hall</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+    <!--End Image Slide-->
+
+    <!--Start Section-->
+    <section>
+        <!--Start Enroll section-->
+        <div class="Enroll" id="home">
+            <div class="container">
+                <h4>Keep your body healthy and enroll now</h4>
+                <button>ENROLL NOW</button>
+            </div>
+        </div>
+        <!--End Enroll section-->
+        <!--Start Product section-->
+        <div class="Product"id="Product">
+            <div class="container">
+                <div class="product-1 prod">
+                    <img src="Images/Jump rope.png" alt="TPR">
+                    <p>Jump Rope</p>
+                    <span class="price">50$</span>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-2 prod">
+                    <img src="Images/yoga tools.png" alt="TPR">
+                    <p>Yoga Tools</p>
+                    <span class="price">25$</span>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-3 prod">
+                    <img src="Images/muscle developer.png" alt="TPR">
+                    <p>Muscle Developer</p>
+                    <span class="price">100$</span>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-3 prod">
+                    <img src="Images/Dumbbells.png" alt="TPR">
+                    <p>Dumbbells</p>
+                    <span class="price Discount">500$</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <!--End Product section-->
+        <!--Start Contact section-->
+        <div class="Contact" id="contact">
+            <div class="container">
+                <p>Enter Your Phone Number We Gonna contact You</p>
+                <input type="tel" name="" id="" placeholder="PhoneNumber">
+                <p>Or You can Enter You Email</p>
+                <input type="email" name="" id="" placeholder="Email">
+            </div>
+        </div>
+        <!--End Contact section-->
+        <!--Start Footer-->
+        <footer>
+            <div class="container">
+                <ul>
+                    <li><h3>Products</h3></li>
+                    <li><a href="#">mobile apps</a></li>
+                    <li><a href="#">web apps</a></li>
+                    <li><a href="#">games</a></li>
+                </ul>
+                <ul>
+                    <li><h3>locations</h3></li>
+                    <li><a href="#">online site</a></li>
+                    <li><a href="#">Amman-JO</a></li>
+                    <li><a href="#">Maddaba</a></li>
+                </ul>
+                <ul class="Copyright">
+                    @Copyright 2023- All Right Reserved.   
+                </ul>
+            </div>
+        </footer>
+    
+        <!--End Footer-->
+    </section>
+    <!--JS LINK-->
+    <script src="Js/function.js"></script>
+</body>
+</html>
